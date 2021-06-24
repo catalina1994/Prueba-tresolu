@@ -1,0 +1,17 @@
+.card{
+    flex-wrap: wrap;
+    @include mediaQ(480px){
+        flex-wrap: nowrap;
+      }
+}
+.card-item{
+    width: 100%;
+    margin-bottom: 2em;
+    p{
+        width: 280px;
+        line-height: 1.8;
+    }
+    @include mediaQ(480px){
+        width: 33%;
+      }
+}

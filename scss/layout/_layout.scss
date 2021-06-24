@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media (min-width: 1366px){
+        width: 1195px;
+    }
+    // @media (min-width: 1600px){
+    //     width: 1200px;
+    // }
+}
+
+.section{
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+.sub-footer{
+    opacity: .7;
+    p{
+        margin-bottom: 1em;;
+    }
+    @include mediaQ(480px){
+        display: flex;
+        justify-content:space-between;
+      }
+}

@@ -1,0 +1,25 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    &-item{
+        position: relative;
+        width: 100%;
+        @include mediaQ(480px){
+            width: 33.3%;
+          }
+    }
+    
+    img{
+        width: 100%;
+        display:block
+    }
+    &-caption{
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.7em;
+        color: #FFF;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        bottom:0;
+    }
+}

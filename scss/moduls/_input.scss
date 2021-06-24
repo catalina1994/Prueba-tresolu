@@ -1,0 +1,21 @@
+
+.input{
+    position: relative;
+    label{
+        position: absolute;
+        padding: .5em;
+    }
+    input{
+        width: 100%;
+        border: none;
+        padding:.7em;
+        margin-bottom: 2em;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    textarea{
+        border: none;
+        margin-bottom: 2em;
+        width: 100%;
+        border-bottom: 1px solid #E5E5E5;
+    }
+}
